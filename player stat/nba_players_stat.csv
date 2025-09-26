@@ -1,576 +1,576 @@
-Name,Position,Shoots,Team,Born,Experience,Height_Weight
-Bradley Beal,Shooting Guard,Right,Los Angeles Clippers,"June 28,
-            1993
- (Age: 32-090d)
-
-    in St. Louis, Missouri",13 years,"6-4,207lb (193cm, 93kg)"
-Donovan Mitchell,Shooting Guard and Point Guard,Right,Cleveland Cavaliers,"September 7,
-            1996
- (Age: 29-019d)
-
-    in Elmsford, New York",8 years,"6-3,215lb (190cm, 97kg)"
-Bogdan Bogdanović,Shooting Guard,Right,Los Angeles Clippers,"August 18,
-            1992
- (Age: 33-039d)
-
-    in Belgrade, Serbia",8 years,"6-5,220lb (196cm, 99kg)"
-Jamal Murray,Point Guard and Shooting Guard,Right,Denver Nuggets,"February 23,
-            1997
- (Age: 28-215d)
-
-    in Kitchener, Ontario",8 years,"6-4,215lb (193cm, 97kg)"
-Jaren Jackson Jr.,Center and Power Forward,Right,Memphis Grizzlies,"September 15,
-            1999
- (Age: 26-011d)
-
-    in Plainfield, New Jersey",7 years,"6-10,242lb (208cm, 109kg)"
-Montrezl Harrell,Center and Power Forward,Right,,"January 26,
-            1994
- (Age: 31-243d)
-
-    in Tarboro, North Carolina",8 years,"6-7,240lb (201cm, 108kg)"
-Evan Mobley,Power Forward,Right,Cleveland Cavaliers,"June 18,
-            2001
- (Age: 24-100d)
-
-    in San Diego, California",4 years,"6-11,215lb (211cm, 97kg)"
-Kyle Lowry,Point Guard,Right,Philadelphia 76ers,"March 25,
+link,Name,Position,Shoots,Team,Born,Experience,Height_Weight
+https://www.basketball-reference.com/players/l/lowryky01.html,Kyle Lowry,Point Guard,Right,Philadelphia 76ers,"March 25,
             1986
  (Age: 39-185d)
 
     in Philadelphia, Pennsylvania",19 years,"6-0,196lb (183cm, 88kg)"
-Kemba Walker,Point Guard,Right,,"May 8,
-            1990
- (Age: 35-141d)
-
-    in The Bronx, New York",,"6-0,184lb (183cm, 83kg)"
-LaMarcus Aldridge,Power Forward and Center,Right,,"July 19,
-            1985
- (Age: 40-069d)
-
-    in Dallas, Texas",,"6-11,250lb (211cm, 113kg)"
-LaMelo Ball,Point Guard,Right,Charlotte Hornets,"August 22,
-            2001
- (Age: 24-035d)
-
-    in Anaheim, California",5 years,"6-7,180lb (201cm, 81kg)"
-Zion Williamson,Power Forward,Left,New Orleans Pelicans,"July 6,
-            2000
- (Age: 25-082d)
-
-    in Salisbury, North Carolina",5 years,"6-6,284lb (198cm, 128kg)"
-Chet Holmgren,Center and Power Forward,Right,Oklahoma City Thunder,"May 1,
-            2002
- (Age: 23-148d)
-
-    in Minneapolis, Minnesota",2 years,"7-1,213lb (216cm, 96kg)"
-Lou Williams,Point Guard and Shooting Guard,Right,,"October 27,
-            1986
- (Age: 38-334d)
-
-    in Memphis, Tennessee",,"6-2,175lb (188cm, 79kg)"
-Shaedon Sharpe,Shooting Guard,Right,Portland Trail Blazers,"May 30,
-            2003
- (Age: 22-119d)
-
-    in London, Ontario",3 years,"6-6,200lb (198cm, 90kg)"
-Bennedict Mathurin,Small Forward and Shooting Guard,Right,Indiana Pacers,"June 19,
-            2002
- (Age: 23-099d)
-
-    in Montreal, Quebec",3 years,"6-6,210lb (198cm, 95kg)"
-Blake Griffin,Power Forward and Center,Right,,"March 16,
-            1989
- (Age: 36-194d)
-
-    in Oklahoma City, Oklahoma",,"6-9,250lb (206cm, 113kg)"
-Keldon Johnson,Small Forward,Right,San Antonio Spurs,"October 11,
-            1999
- (Age: 25-350d)
-
-    in Chesterfield, Virginia",6 years,"6-5,220lb (196cm, 99kg)"
-Victor Wembanyama,Center and Power Forward,Right,San Antonio Spurs,"January 4,
-            2004
- (Age: 21-265d)
-
-    in Le Chesnay, France",2 years,"7-3,235lb (221cm, 106kg)"
-Malcolm Brogdon,Point Guard and Shooting Guard,Right,New York Knicks,"December 11,
-            1992
- (Age: 32-289d)
-
-    in Atlanta, Georgia",9 years,"6-4,229lb (193cm, 103kg)"
-Jonas Valančiūnas,Center,Right,Denver Nuggets,"May 6,
-            1992
- (Age: 33-143d)
-
-    in Utena, Lithuania",13 years,"6-11,265lb (211cm, 120kg)"
-CJ McCollum,Shooting Guard and Point Guard,Right,Washington Wizards,"September 19,
-            1991
- (Age: 34-007d)
-
-    in Canton, Ohio",12 years,"6-3,190lb (190cm, 86kg)"
-Norman Powell,Shooting Guard and Small Forward,Right,Miami Heat,"May 25,
-            1993
- (Age: 32-124d)
-
-    in San Diego, California",10 years,"6-3,215lb (190cm, 97kg)"
-Jordan Poole,Shooting Guard and Point Guard,Right,New Orleans Pelicans,"June 19,
-            1999
- (Age: 26-099d)
-
-    in Milwaukee, Wisconsin",6 years,"6-4,194lb (193cm, 87kg)"
-Anthony Davis,Center and Power Forward,Right,Dallas Mavericks,"March 11,
-            1993
- (Age: 32-199d)
-
-    in Chicago, Illinois",13 years,"6-10,253lb (208cm, 114kg)"
-Jalen Green,Shooting Guard,Right,Phoenix Suns,"February 9,
-            2002
- (Age: 23-229d)
-
-    in Merced, California",4 years,"6-4,178lb (193cm, 80kg)"
-Domantas Sabonis,Center and Power Forward,Left,Sacramento Kings,"May 3,
-            1996
- (Age: 29-146d)
-
-    in Portland, Oregon",9 years,"6-10,240lb (208cm, 108kg)"
-Evan Fournier,Shooting Guard and Small Forward,Right,,"October 29,
-            1992
- (Age: 32-332d)
-
-    in Saint-Maurice, France",12 years,"6-6,205lb (198cm, 92kg)"
-Jaylen Brown,Small Forward and Shooting Guard,Right,Boston Celtics,"October 24,
-            1996
- (Age: 28-337d)
-
-    in Marietta, Georgia",9 years,"6-6,223lb (198cm, 101kg)"
-Anthony Edwards,Shooting Guard,Right,Minnesota Timberwolves,"August 5,
-            2001
- (Age: 24-052d)
-
-    in Atlanta, Georgia",5 years,"6-4,225lb (193cm, 102kg)"
-Lauri Markkanen,Power Forward and Small Forward,Right,Utah Jazz,"May 22,
-            1997
- (Age: 28-127d)
-
-    in Vantaa, Finland",8 years,"7-0,240lb (213cm, 108kg)"
-Franz Wagner,Small Forward,Right,Orlando Magic,"August 27,
-            2001
- (Age: 24-030d)
-
-    in Berlin, Germany",4 years,"6-10,225lb (208cm, 102kg)"
-Karl-Anthony Towns,Center and Power Forward,Right,New York Knicks,"November 15,
-            1995
- (Age: 29-315d)
-
-    in Edison, New Jersey",10 years,"7-0,248lb (213cm, 112kg)"
-Pascal Siakam,Power Forward,Right,Indiana Pacers,"April 2,
-            1994
- (Age: 31-177d)
-
-    in Douala, Cameroon",9 years,"6-8,230lb (203cm, 104kg)"
-De'Aaron Fox,Point Guard,Left,San Antonio Spurs,"December 20,
-            1997
- (Age: 27-280d)
-
-    in New Orleans, Louisiana",8 years,"6-3,185lb (190cm, 83kg)"
-Danilo Gallinari,"Small Forward, Power Forward, and Shooting Guard",Right,,"August 8,
-            1988
- (Age: 37-049d)
-
-    in Sant'Angelo Lodigiano, Italy",14 years,"6-10,233lb (208cm, 105kg)"
-D'Angelo Russell,Point Guard,Left,Dallas Mavericks,"February 23,
-            1996
- (Age: 29-215d)
-
-    in Louisville, Kentucky",10 years,"6-3,193lb (190cm, 87kg)"
-Austin Reaves,Shooting Guard,Right,Los Angeles Lakers,"May 29,
-            1998
- (Age: 27-120d)
-
-    in Newark, Arkansas",4 years,"6-5,206lb (196cm, 93kg)"
-Jalen Brunson,Point Guard and Shooting Guard,Left,New York Knicks,"August 31,
-            1996
- (Age: 29-026d)
-
-    in New Brunswick, New Jersey",7 years,"6-2,190lb (188cm, 86kg)"
-Kyle Kuzma,Power Forward and Small Forward,Right,Milwaukee Bucks,"July 24,
-            1995
- (Age: 30-064d)
-
-    in Flint, Michigan",8 years,"6-9,221lb (206cm, 100kg)"
-Joel Embiid,Center,Right,Philadelphia 76ers,"March 16,
-            1994
- (Age: 31-194d)
-
-    in Yaounde, Cameroon",9 years,"7-0,280lb (213cm, 127kg)"
-Tobias Harris,Power Forward and Small Forward,Right,Detroit Pistons,"July 15,
-            1992
- (Age: 33-073d)
-
-    in Islip, New York",14 years,"6-8,226lb (203cm, 102kg)"
-Devin Booker,Shooting Guard and Point Guard,Right,Phoenix Suns,"October 30,
-            1996
- (Age: 28-331d)
-
-    in Grand Rapids, Michigan",10 years,"6-6,206lb (198cm, 93kg)"
-Brandon Ingram,Small Forward and Power Forward,Right,Toronto Raptors,"September 2,
-            1997
- (Age: 28-024d)
-
-    in Kinston, North Carolina",9 years,"6-8,190lb (203cm, 86kg)"
-Alperen Şengün,Center,Right,Houston Rockets,"July 25,
-            2002
- (Age: 23-063d)
-
-    in Giresun, Turkey",4 years,"6-11,235lb (211cm, 106kg)"
-Nikola Vučević,Center,Right,Chicago Bulls,"October 24,
-            1990
- (Age: 34-337d)
-
-    in Morges, Switzerland",14 years,"6-10,260lb (208cm, 117kg)"
-Saddiq Bey,Small Forward,Right,New Orleans Pelicans,"April 9,
-            1999
- (Age: 26-170d)
-
-    in Charlotte, North Carolina",4 years,"6-7,215lb (201cm, 97kg)"
-Anfernee Simons,Shooting Guard,Right,Boston Celtics,"June 8,
-            1999
- (Age: 26-110d)
-
-    in Longwood, Florida",7 years,"6-3,181lb (190cm, 82kg)"
-John Collins,Power Forward,Right,Los Angeles Clippers,"September 23,
-            1997
- (Age: 28-003d)
-
-    in Layton, Utah",8 years,"6-9,235lb (206cm, 106kg)"
-Klay Thompson,Shooting Guard and Small Forward,Right,Dallas Mavericks,"February 8,
-            1990
- (Age: 35-230d)
-
-    in Los Angeles, California",12 years,"6-5,215lb (196cm, 97kg)"
-JJ Redick,Shooting Guard and Point Guard,Right,,"June 24,
-            1984
- (Age: 41-094d)
-
-    in Cookeville, Tennessee",,"6-3,200lb (190cm, 90kg)"
-Paolo Banchero,Power Forward,Right,Orlando Magic,"November 12,
-            2002
- (Age: 22-318d)
-
-    in Seattle, Washington",3 years,"6-10,250lb (208cm, 113kg)"
-Tyler Herro,Shooting Guard,Right,Miami Heat,"January 20,
-            2000
- (Age: 25-249d)
-
-    in Milwaukee, Wisconsin",6 years,"6-5,195lb (196cm, 88kg)"
-Jalen Williams,Shooting Guard and Power Forward,Right,Oklahoma City Thunder,"April 14,
-            2001
- (Age: 24-165d)
-
-    in Denver, Colorado",3 years,"6-6,220lb (198cm, 99kg)"
-Damian Lillard,Point Guard,Right,Portland Trail Blazers,"July 15,
-            1990
- (Age: 35-073d)
-
-    in Oakland, California",13 years,"6-2,195lb (188cm, 88kg)"
-Tim Hardaway Jr.,Shooting Guard and Small Forward,Right,Denver Nuggets,"March 16,
-            1992
- (Age: 33-194d)
-
-    in Orinda, California",12 years,"6-5,205lb (196cm, 92kg)"
-Dejounte Murray,Point Guard and Shooting Guard,Right,New Orleans Pelicans,"September 19,
-            1996
- (Age: 29-007d)
-
-    in Seattle, Washington",8 years,"6-5,180lb (196cm, 81kg)"
-Miles Bridges,Small Forward and Power Forward,Left,Charlotte Hornets,"March 21,
-            1998
- (Age: 27-189d)
-
-    in Flint, Michigan",6 years,"6-7,225lb (201cm, 102kg)"
-Shai Gilgeous-Alexander,Point Guard and Shooting Guard,Right,Oklahoma City Thunder,"July 12,
-            1998
- (Age: 27-076d)
-
-    in Toronto, Ontario",7 years,"6-6,200lb (198cm, 90kg)"
-Tyrese Maxey,Point Guard and Shooting Guard,Right,Philadelphia 76ers,"November 4,
-            2000
- (Age: 24-326d)
-
-    in Dallas, Texas",5 years,"6-2,200lb (188cm, 90kg)"
-Ben Simmons,Point Guard,Left,,"July 20,
-            1996
- (Age: 29-068d)
-
-    in Melbourne, Australia",7 years,"6-10,240lb (208cm, 108kg)"
-Giannis Antetokounmpo,"Power Forward, Small Forward, Point Guard, and Shooting Guard",Right,Milwaukee Bucks,"December 6,
-            1994
- (Age: 30-294d)
-
-    in Athens, Greece",12 years,"6-11,242lb (211cm, 109kg)"
-Andre Drummond,Center,Right,Philadelphia 76ers,"August 10,
-            1993
- (Age: 32-047d)
-
-    in Mount Vernon, New York",13 years,"6-11,279lb (211cm, 126kg)"
-Nikola Jokić,Center,Right,Denver Nuggets,"February 19,
-            1995
- (Age: 30-219d)
-
-    in Sombor, Serbia",10 years,"6-11,284lb (211cm, 128kg)"
-Fred VanVleet,Point Guard and Shooting Guard,Right,Houston Rockets,"February 25,
-            1994
- (Age: 31-213d)
-
-    in Rockford, Illinois",9 years,"6-0,197lb (183cm, 89kg)"
-RJ Barrett,Shooting Guard and Small Forward,Left,Toronto Raptors,"June 14,
-            2000
- (Age: 25-104d)
-
-    in Toronto, Ontario",6 years,"6-6,214lb (198cm, 97kg)"
-Trae Young,Point Guard,Right,Atlanta Hawks,"September 19,
-            1998
- (Age: 27-007d)
-
-    in Lubbock, Texas",7 years,"6-1,164lb (185cm, 74kg)"
-Mike Conley,Point Guard,Left,Minnesota Timberwolves,"October 11,
-            1987
- (Age: 37-350d)
-
-    in Fayetteville, Arkansas",18 years,"6-0,175lb (183cm, 79kg)"
-Terry Rozier,Point Guard and Shooting Guard,Right,Miami Heat,"March 17,
-            1994
- (Age: 31-193d)
-
-    in Youngstown, Ohio",10 years,"6-1,190lb (185cm, 86kg)"
-Devonte' Graham,Point Guard,Right,,"February 22,
-            1995
- (Age: 30-216d)
-
-    in Raleigh, North Carolina",6 years,"6-1,195lb (185cm, 88kg)"
-Harrison Barnes,Power Forward and Small Forward,Right,San Antonio Spurs,"May 30,
-            1992
- (Age: 33-119d)
-
-    in Ames, Iowa",13 years,"6-8,225lb (203cm, 102kg)"
-Kevin Durant,"Small Forward, Power Forward, and Shooting Guard",Right,Houston Rockets,"September 29,
-            1988
- (Age: 36-362d)
-
-    in Washington, District of Columbia",17 years,"6-11,240lb (211cm, 108kg)"
-Chris Paul,Point Guard,Right,Los Angeles Clippers,"May 6,
-            1985
- (Age: 40-143d)
-
-    in Winston-Salem, North Carolina",20 years,"6-0,175lb (183cm, 79kg)"
-Dennis Schröder,Point Guard and Shooting Guard,Right,Sacramento Kings,"September 15,
-            1993
- (Age: 32-011d)
-
-    in Braunschweig, Germany",12 years,"6-1,172lb (185cm, 78kg)"
-OG Anunoby,Small Forward and Power Forward,Right,New York Knicks,"July 17,
-            1997
- (Age: 28-071d)
-
-    in London, United Kingdom",8 years,"6-7,232lb (201cm, 105kg)"
-Bam Adebayo,Center and Power Forward,Right,Miami Heat,"July 18,
-            1997
- (Age: 28-070d)
-
-    in Newark, New Jersey",8 years,"6-9,255lb (206cm, 115kg)"
-Khris Middleton,Small Forward and Shooting Guard,Right,Washington Wizards,"August 12,
-            1991
- (Age: 34-045d)
-
-    in Charleston, South Carolina",13 years,"6-7,222lb (201cm, 100kg)"
-Darius Garland,Point Guard and Shooting Guard,Right,Cleveland Cavaliers,"January 26,
-            2000
- (Age: 25-243d)
-
-    in Gary, Indiana",6 years,"6-1,192lb (185cm, 87kg)"
-Cam Thomas,Shooting Guard,Right,Brooklyn Nets,"October 13,
-            2001
- (Age: 23-348d)
-
-    in Yokosuka, Japan",4 years,"6-4,210lb (193cm, 95kg)"
-Desmond Bane,Shooting Guard,Right,Orlando Magic,"June 25,
-            1998
- (Age: 27-093d)
-
-    in Richmond, Indiana",5 years,"6-5,215lb (196cm, 97kg)"
-Kyrie Irving,Point Guard and Shooting Guard,Right,Dallas Mavericks,"March 23,
-            1992
- (Age: 33-187d)
-
-    in Melbourne, Australia",14 years,"6-2,195lb (188cm, 88kg)"
-Dillon Brooks,Small Forward and Shooting Guard,Right,Phoenix Suns,"January 22,
-            1996
- (Age: 29-247d)
-
-    in Mississauga, Ontario",8 years,"6-6,225lb (198cm, 102kg)"
-Stephen Curry,Point Guard,Right,Golden State Warriors,"March 14,
-            1988
- (Age: 37-196d)
-
-    in Akron, Ohio",16 years,"6-2,185lb (188cm, 83kg)"
-Buddy Hield,Shooting Guard and Small Forward,Right,Golden State Warriors,"December 17,
-            1992
- (Age: 32-283d)
-
-    in Freeport, Bahamas",9 years,"6-4,220lb (193cm, 99kg)"
-Jimmy Butler,"Small Forward, Shooting Guard, and Power Forward",Right,Golden State Warriors,"September 14,
-            1989
- (Age: 36-012d)
-
-    in Houston, Texas",14 years,"6-7,230lb (201cm, 104kg)"
-Ivica Zubac,Center,Right,Los Angeles Clippers,"March 18,
-            1997
- (Age: 28-192d)
-
-    in Mostar, Bosnia and Herzegovina",9 years,"7-0,240lb (213cm, 108kg)"
-Collin Sexton,Shooting Guard and Point Guard,Right,Charlotte Hornets,"January 4,
-            1999
- (Age: 26-265d)
-
-    in Marietta, Georgia",7 years,"6-3,190lb (190cm, 86kg)"
-T.J. Warren,Small Forward and Power Forward,Right,,"September 5,
-            1993
- (Age: 32-021d)
-
-    in Durham, North Carolina",9 years,"6-8,220lb (203cm, 99kg)"
-LeBron James,"Small Forward, Power Forward, Point Guard, Center, and Shooting Guard",Right,Los Angeles Lakers,"December 30,
-            1984
- (Age: 40-270d)
-
-    in Akron, Ohio",22 years,"6-9,250lb (206cm, 113kg)"
-Paul George,"Small Forward, Power Forward, and Shooting Guard",Right,Philadelphia 76ers,"May 2,
-            1990
- (Age: 35-147d)
-
-    in Palmdale, California",15 years,"6-8,220lb (203cm, 99kg)"
-Luka Dončić,Point Guard and Shooting Guard,Right,Los Angeles Lakers,"February 28,
-            1999
- (Age: 26-210d)
-
-    in Ljubljana, Slovenia",7 years,"6-6,230lb (198cm, 104kg)"
-Reggie Jackson,Point Guard and Shooting Guard,Right,,"April 16,
-            1990
- (Age: 35-163d)
-
-    in Pordenone, Italy",14 years,"6-2,208lb (188cm, 94kg)"
-Jrue Holiday,Point Guard and Shooting Guard,Right,Portland Trail Blazers,"June 12,
-            1990
- (Age: 35-106d)
-
-    in Chatsworth, California",16 years,"6-4,205lb (193cm, 92kg)"
-Mikal Bridges,Small Forward and Shooting Guard,Right,New York Knicks,"August 30,
-            1996
- (Age: 29-027d)
-
-    in Philadelphia, Pennsylvania",7 years,"6-6,209lb (198cm, 94kg)"
-Ja Morant,Point Guard,Right,Memphis Grizzlies,"August 10,
-            1999
- (Age: 26-047d)
-
-    in Dalzell, South Carolina",6 years,"6-2,174lb (188cm, 78kg)"
-Gary Trent Jr.,Shooting Guard and Small Forward,Right,Milwaukee Bucks,"January 18,
-            1999
- (Age: 26-251d)
-
-    in Columbus, Ohio",7 years,"6-5,209lb (196cm, 94kg)"
-Tyrese Haliburton,Point Guard and Shooting Guard,Right,Indiana Pacers,"February 29,
-            2000
- (Age: 25-209d)
-
-    in Oshkosh, Wisconsin",5 years,"6-5,185lb (196cm, 83kg)"
-Kristaps Porziņģis,Center and Power Forward,Right,Atlanta Hawks,"August 2,
-            1995
- (Age: 30-055d)
-
-    in Liepaja, Latvia",9 years,"7-2,240lb (218cm, 108kg)"
-Jordan Clarkson,Shooting Guard and Point Guard,Right,New York Knicks,"June 7,
-            1992
- (Age: 33-111d)
-
-    in Tampa, Florida",11 years,"6-3,194lb (190cm, 87kg)"
-Russell Westbrook,Point Guard,Right,,"November 12,
-            1988
- (Age: 36-318d)
-
-    in Long Beach, California",17 years,"6-4,200lb (193cm, 90kg)"
-Zach LaVine,"Shooting Guard, Small Forward, and Point Guard",Right,Sacramento Kings,"March 10,
-            1995
- (Age: 30-200d)
-
-    in Renton, Washington",11 years,"6-5,200lb (196cm, 90kg)"
-Jayson Tatum,Small Forward and Power Forward,Right,Boston Celtics,"March 3,
-            1998
- (Age: 27-207d)
-
-    in St. Louis, Missouri",8 years,"6-8,210lb (203cm, 95kg)"
-James Harden,Point Guard and Shooting Guard,Left,Los Angeles Clippers,"August 26,
-            1989
- (Age: 36-031d)
-
-    in Los Angeles, California",16 years,"6-5,220lb (196cm, 99kg)"
-DeMar DeRozan,"Shooting Guard, Small Forward, and Power Forward",Right,Sacramento Kings,"August 7,
-            1989
- (Age: 36-050d)
-
-    in Compton, California",16 years,"6-6,220lb (198cm, 99kg)"
-Spencer Dinwiddie,Point Guard and Shooting Guard,Right,,"April 6,
-            1993
- (Age: 32-173d)
-
-    in Los Angeles, California",11 years,"6-5,215lb (196cm, 97kg)"
-Andrew Wiggins,Small Forward and Power Forward,Right,Miami Heat,"February 23,
-            1995
- (Age: 30-215d)
-
-    in Toronto, Ontario",11 years,"6-7,197lb (201cm, 89kg)"
-Coby White,Point Guard and Shooting Guard,Right,Chicago Bulls,"February 16,
-            2000
- (Age: 25-222d)
-
-    in Goldsboro, North Carolina",6 years,"6-5,195lb (196cm, 88kg)"
-Malik Beasley,Shooting Guard,Right,,"November 26,
-            1996
- (Age: 28-304d)
-
-    in Atlanta, Georgia",9 years,"6-4,187lb (193cm, 84kg)"
-Julius Randle,Power Forward and Center,Left,Minnesota Timberwolves,"November 29,
-            1994
- (Age: 30-301d)
-
-    in Dallas, Texas",11 years,"6-9,250lb (206cm, 113kg)"
-Kawhi Leonard,Small Forward,Right,Los Angeles Clippers,"June 29,
-            1991
- (Age: 34-089d)
-
-    in Los Angeles, California",13 years,"6-7,225lb (201cm, 102kg)"
-Bojan Bogdanović,Small Forward and Power Forward,Right,,"April 18,
-            1989
- (Age: 36-161d)
-
-    in Mostar, Bosnia and Herzegovina",10 years,"6-7,226lb (201cm, 102kg)"
-Cade Cunningham,Point Guard and Shooting Guard,Right,Detroit Pistons,"September 25,
-            2001
- (Age: 24-001d)
-
-    in Arlington, Texas",4 years,"6-6,220lb (198cm, 99kg)"
-Jerami Grant,Power Forward and Small Forward,Right,Portland Trail Blazers,"March 12,
-            1994
- (Age: 31-198d)
-
-    in Portland, Oregon",11 years,"6-7,210lb (201cm, 95kg)"
-Rudy Gobert,Center,Right,Minnesota Timberwolves,"June 26,
-            1992
- (Age: 33-092d)
-
-    in Saint-Quentin, France",12 years,"7-1,258lb (216cm, 117kg)"
-Michael Porter Jr.,Small Forward,Right,Brooklyn Nets,"June 29,
+https://www.basketball-reference.com/players/p/portemi01.html,Michael Porter Jr.,Small Forward,Right,Brooklyn Nets,"June 29,
             1998
  (Age: 27-089d)
 
     in Indianapolis, Indiana",6 years,"6-10,218lb (208cm, 98kg)"
+https://www.basketball-reference.com/players/v/vucevni01.html,Nikola Vučević,Center,Right,Chicago Bulls,"October 24,
+            1990
+ (Age: 34-337d)
+
+    in Morges, Switzerland",14 years,"6-10,260lb (208cm, 117kg)"
+https://www.basketball-reference.com/players/h/harremo01.html,Montrezl Harrell,Center and Power Forward,Right,,"January 26,
+            1994
+ (Age: 31-243d)
+
+    in Tarboro, North Carolina",8 years,"6-7,240lb (201cm, 108kg)"
+https://www.basketball-reference.com/players/b/banede01.html,Desmond Bane,Shooting Guard,Right,Orlando Magic,"June 25,
+            1998
+ (Age: 27-093d)
+
+    in Richmond, Indiana",5 years,"6-5,215lb (196cm, 97kg)"
+https://www.basketball-reference.com/players/e/edwaran01.html,Anthony Edwards,Shooting Guard,Right,Minnesota Timberwolves,"August 5,
+            2001
+ (Age: 24-052d)
+
+    in Atlanta, Georgia",5 years,"6-4,225lb (193cm, 102kg)"
+https://www.basketball-reference.com/players/c/cunnica01.html,Cade Cunningham,Point Guard and Shooting Guard,Right,Detroit Pistons,"September 25,
+            2001
+ (Age: 24-001d)
+
+    in Arlington, Texas",4 years,"6-6,220lb (198cm, 99kg)"
+https://www.basketball-reference.com/players/m/mobleev01.html,Evan Mobley,Power Forward,Right,Cleveland Cavaliers,"June 18,
+            2001
+ (Age: 24-100d)
+
+    in San Diego, California",4 years,"6-11,215lb (211cm, 97kg)"
+https://www.basketball-reference.com/players/m/maxeyty01.html,Tyrese Maxey,Point Guard and Shooting Guard,Right,Philadelphia 76ers,"November 4,
+            2000
+ (Age: 24-326d)
+
+    in Dallas, Texas",5 years,"6-2,200lb (188cm, 90kg)"
+https://www.basketball-reference.com/players/l/leonaka01.html,Kawhi Leonard,Small Forward,Right,Los Angeles Clippers,"June 29,
+            1991
+ (Age: 34-089d)
+
+    in Los Angeles, California",13 years,"6-7,225lb (201cm, 102kg)"
+https://www.basketball-reference.com/players/w/whiteco01.html,Coby White,Point Guard and Shooting Guard,Right,Chicago Bulls,"February 16,
+            2000
+ (Age: 25-222d)
+
+    in Goldsboro, North Carolina",6 years,"6-5,195lb (196cm, 88kg)"
+https://www.basketball-reference.com/players/t/trentga02.html,Gary Trent Jr.,Shooting Guard and Small Forward,Right,Milwaukee Bucks,"January 18,
+            1999
+ (Age: 26-251d)
+
+    in Columbus, Ohio",7 years,"6-5,209lb (196cm, 94kg)"
+https://www.basketball-reference.com/players/c/collijo01.html,John Collins,Power Forward,Right,Los Angeles Clippers,"September 23,
+            1997
+ (Age: 28-003d)
+
+    in Layton, Utah",8 years,"6-9,235lb (206cm, 106kg)"
+https://www.basketball-reference.com/players/b/bogdabo02.html,Bojan Bogdanović,Small Forward and Power Forward,Right,,"April 18,
+            1989
+ (Age: 36-161d)
+
+    in Mostar, Bosnia and Herzegovina",10 years,"6-7,226lb (201cm, 102kg)"
+https://www.basketball-reference.com/players/r/roziete01.html,Terry Rozier,Point Guard and Shooting Guard,Right,Miami Heat,"March 17,
+            1994
+ (Age: 31-193d)
+
+    in Youngstown, Ohio",10 years,"6-1,190lb (185cm, 86kg)"
+https://www.basketball-reference.com/players/d/dinwisp01.html,Spencer Dinwiddie,Point Guard and Shooting Guard,Right,,"April 6,
+            1993
+ (Age: 32-173d)
+
+    in Los Angeles, California",11 years,"6-5,215lb (196cm, 97kg)"
+https://www.basketball-reference.com/players/h/herroty01.html,Tyler Herro,Shooting Guard,Right,Miami Heat,"January 20,
+            2000
+ (Age: 25-249d)
+
+    in Milwaukee, Wisconsin",6 years,"6-5,195lb (196cm, 88kg)"
+https://www.basketball-reference.com/players/m/mccolcj01.html,CJ McCollum,Shooting Guard and Point Guard,Right,Washington Wizards,"September 19,
+            1991
+ (Age: 34-007d)
+
+    in Canton, Ohio",12 years,"6-3,190lb (190cm, 86kg)"
+https://www.basketball-reference.com/players/b/brogdma01.html,Malcolm Brogdon,Point Guard and Shooting Guard,Right,New York Knicks,"December 11,
+            1992
+ (Age: 32-289d)
+
+    in Atlanta, Georgia",9 years,"6-4,229lb (193cm, 103kg)"
+https://www.basketball-reference.com/players/w/wagnefr01.html,Franz Wagner,Small Forward,Right,Orlando Magic,"August 27,
+            2001
+ (Age: 24-030d)
+
+    in Berlin, Germany",4 years,"6-10,225lb (208cm, 102kg)"
+https://www.basketball-reference.com/players/j/johnske04.html,Keldon Johnson,Small Forward,Right,San Antonio Spurs,"October 11,
+            1999
+ (Age: 25-350d)
+
+    in Chesterfield, Virginia",6 years,"6-5,220lb (196cm, 99kg)"
+https://www.basketball-reference.com/players/b/beysa01.html,Saddiq Bey,Small Forward,Right,New Orleans Pelicans,"April 9,
+            1999
+ (Age: 26-170d)
+
+    in Charlotte, North Carolina",4 years,"6-7,215lb (201cm, 97kg)"
+https://www.basketball-reference.com/players/b/bogdabo01.html,Bogdan Bogdanović,Shooting Guard,Right,Los Angeles Clippers,"August 18,
+            1992
+ (Age: 33-039d)
+
+    in Belgrade, Serbia",8 years,"6-5,220lb (196cm, 99kg)"
+https://www.basketball-reference.com/players/a/antetgi01.html,Giannis Antetokounmpo,"Power Forward, Small Forward, Point Guard, and Shooting Guard",Right,Milwaukee Bucks,"December 6,
+            1994
+ (Age: 30-294d)
+
+    in Athens, Greece",12 years,"6-11,242lb (211cm, 109kg)"
+https://www.basketball-reference.com/players/s/simmobe01.html,Ben Simmons,Point Guard,Left,,"July 20,
+            1996
+ (Age: 29-068d)
+
+    in Melbourne, Australia",7 years,"6-10,240lb (208cm, 108kg)"
+https://www.basketball-reference.com/players/i/irvinky01.html,Kyrie Irving,Point Guard and Shooting Guard,Right,Dallas Mavericks,"March 23,
+            1992
+ (Age: 33-187d)
+
+    in Melbourne, Australia",14 years,"6-2,195lb (188cm, 88kg)"
+https://www.basketball-reference.com/players/s/sextoco01.html,Collin Sexton,Shooting Guard and Point Guard,Right,Charlotte Hornets,"January 4,
+            1999
+ (Age: 26-265d)
+
+    in Marietta, Georgia",7 years,"6-3,190lb (190cm, 86kg)"
+https://www.basketball-reference.com/players/c/conlemi01.html,Mike Conley,Point Guard,Left,Minnesota Timberwolves,"October 11,
+            1987
+ (Age: 37-350d)
+
+    in Fayetteville, Arkansas",18 years,"6-0,175lb (183cm, 79kg)"
+https://www.basketball-reference.com/players/b/bridgmi02.html,Miles Bridges,Small Forward and Power Forward,Left,Charlotte Hornets,"March 21,
+            1998
+ (Age: 27-189d)
+
+    in Flint, Michigan",6 years,"6-7,225lb (201cm, 102kg)"
+https://www.basketball-reference.com/players/p/poolejo01.html,Jordan Poole,Shooting Guard and Point Guard,Right,New Orleans Pelicans,"June 19,
+            1999
+ (Age: 26-099d)
+
+    in Milwaukee, Wisconsin",6 years,"6-4,194lb (193cm, 87kg)"
+https://www.basketball-reference.com/players/t/townska01.html,Karl-Anthony Towns,Center and Power Forward,Right,New York Knicks,"November 15,
+            1995
+ (Age: 29-315d)
+
+    in Edison, New Jersey",10 years,"7-0,248lb (213cm, 112kg)"
+https://www.basketball-reference.com/players/b/barrerj01.html,RJ Barrett,Shooting Guard and Small Forward,Left,Toronto Raptors,"June 14,
+            2000
+ (Age: 25-104d)
+
+    in Toronto, Ontario",6 years,"6-6,214lb (198cm, 97kg)"
+https://www.basketball-reference.com/players/w/westbru01.html,Russell Westbrook,Point Guard,Right,,"November 12,
+            1988
+ (Age: 36-318d)
+
+    in Long Beach, California",17 years,"6-4,200lb (193cm, 90kg)"
+https://www.basketball-reference.com/players/m/murrade01.html,Dejounte Murray,Point Guard and Shooting Guard,Right,New Orleans Pelicans,"September 19,
+            1996
+ (Age: 29-007d)
+
+    in Seattle, Washington",8 years,"6-5,180lb (196cm, 81kg)"
+https://www.basketball-reference.com/players/i/ingrabr01.html,Brandon Ingram,Small Forward and Power Forward,Right,Toronto Raptors,"September 2,
+            1997
+ (Age: 28-024d)
+
+    in Kinston, North Carolina",9 years,"6-8,190lb (203cm, 86kg)"
+https://www.basketball-reference.com/players/w/warretj01.html,T.J. Warren,Small Forward and Power Forward,Right,,"September 5,
+            1993
+ (Age: 32-021d)
+
+    in Durham, North Carolina",9 years,"6-8,220lb (203cm, 99kg)"
+https://www.basketball-reference.com/players/m/markkla01.html,Lauri Markkanen,Power Forward and Small Forward,Right,Utah Jazz,"May 22,
+            1997
+ (Age: 28-127d)
+
+    in Vantaa, Finland",8 years,"7-0,240lb (213cm, 108kg)"
+https://www.basketball-reference.com/players/a/aldrila01.html,LaMarcus Aldridge,Power Forward and Center,Right,,"July 19,
+            1985
+ (Age: 40-069d)
+
+    in Dallas, Texas",,"6-11,250lb (211cm, 113kg)"
+https://www.basketball-reference.com/players/h/hardeja01.html,James Harden,Point Guard and Shooting Guard,Left,Los Angeles Clippers,"August 26,
+            1989
+ (Age: 36-031d)
+
+    in Los Angeles, California",16 years,"6-5,220lb (196cm, 99kg)"
+https://www.basketball-reference.com/players/t/thompkl01.html,Klay Thompson,Shooting Guard and Small Forward,Right,Dallas Mavericks,"February 8,
+            1990
+ (Age: 35-230d)
+
+    in Los Angeles, California",12 years,"6-5,215lb (196cm, 97kg)"
+https://www.basketball-reference.com/players/h/holidjr01.html,Jrue Holiday,Point Guard and Shooting Guard,Right,Portland Trail Blazers,"June 12,
+            1990
+ (Age: 35-106d)
+
+    in Chatsworth, California",16 years,"6-4,205lb (193cm, 92kg)"
+https://www.basketball-reference.com/players/c/curryst01.html,Stephen Curry,Point Guard,Right,Golden State Warriors,"March 14,
+            1988
+ (Age: 37-196d)
+
+    in Akron, Ohio",16 years,"6-2,185lb (188cm, 83kg)"
+https://www.basketball-reference.com/players/g/griffbl01.html,Blake Griffin,Power Forward and Center,Right,,"March 16,
+            1989
+ (Age: 36-194d)
+
+    in Oklahoma City, Oklahoma",,"6-9,250lb (206cm, 113kg)"
+https://www.basketball-reference.com/players/m/murraja01.html,Jamal Murray,Point Guard and Shooting Guard,Right,Denver Nuggets,"February 23,
+            1997
+ (Age: 28-215d)
+
+    in Kitchener, Ontario",8 years,"6-4,215lb (193cm, 97kg)"
+https://www.basketball-reference.com/players/l/lillada01.html,Damian Lillard,Point Guard,Right,Portland Trail Blazers,"July 15,
+            1990
+ (Age: 35-073d)
+
+    in Oakland, California",13 years,"6-2,195lb (188cm, 88kg)"
+https://www.basketball-reference.com/players/w/willizi01.html,Zion Williamson,Power Forward,Left,New Orleans Pelicans,"July 6,
+            2000
+ (Age: 25-082d)
+
+    in Salisbury, North Carolina",5 years,"6-6,284lb (198cm, 128kg)"
+https://www.basketball-reference.com/players/d/davisan02.html,Anthony Davis,Center and Power Forward,Right,Dallas Mavericks,"March 11,
+            1993
+ (Age: 32-199d)
+
+    in Chicago, Illinois",13 years,"6-10,253lb (208cm, 114kg)"
+https://www.basketball-reference.com/players/v/valanjo01.html,Jonas Valančiūnas,Center,Right,Denver Nuggets,"May 6,
+            1992
+ (Age: 33-143d)
+
+    in Utena, Lithuania",13 years,"6-11,265lb (211cm, 120kg)"
+https://www.basketball-reference.com/players/h/holmgch01.html,Chet Holmgren,Center and Power Forward,Right,Oklahoma City Thunder,"May 1,
+            2002
+ (Age: 23-148d)
+
+    in Minneapolis, Minnesota",2 years,"7-1,213lb (216cm, 96kg)"
+https://www.basketball-reference.com/players/z/zubaciv01.html,Ivica Zubac,Center,Right,Los Angeles Clippers,"March 18,
+            1997
+ (Age: 28-192d)
+
+    in Mostar, Bosnia and Herzegovina",9 years,"7-0,240lb (213cm, 108kg)"
+https://www.basketball-reference.com/players/w/walkeke02.html,Kemba Walker,Point Guard,Right,,"May 8,
+            1990
+ (Age: 35-141d)
+
+    in The Bronx, New York",,"6-0,184lb (183cm, 83kg)"
+https://www.basketball-reference.com/players/s/sharpsh01.html,Shaedon Sharpe,Shooting Guard,Right,Portland Trail Blazers,"May 30,
+            2003
+ (Age: 22-119d)
+
+    in London, Ontario",3 years,"6-6,200lb (198cm, 90kg)"
+https://www.basketball-reference.com/players/s/simonan01.html,Anfernee Simons,Shooting Guard,Right,Boston Celtics,"June 8,
+            1999
+ (Age: 26-110d)
+
+    in Longwood, Florida",7 years,"6-3,181lb (190cm, 82kg)"
+https://www.basketball-reference.com/players/a/adebaba01.html,Bam Adebayo,Center and Power Forward,Right,Miami Heat,"July 18,
+            1997
+ (Age: 28-070d)
+
+    in Newark, New Jersey",8 years,"6-9,255lb (206cm, 115kg)"
+https://www.basketball-reference.com/players/t/thomaca02.html,Cam Thomas,Shooting Guard,Right,Brooklyn Nets,"October 13,
+            2001
+ (Age: 23-348d)
+
+    in Yokosuka, Japan",4 years,"6-4,210lb (193cm, 95kg)"
+https://www.basketball-reference.com/players/s/siakapa01.html,Pascal Siakam,Power Forward,Right,Indiana Pacers,"April 2,
+            1994
+ (Age: 31-177d)
+
+    in Douala, Cameroon",9 years,"6-8,230lb (203cm, 104kg)"
+https://www.basketball-reference.com/players/f/foxde01.html,De'Aaron Fox,Point Guard,Left,San Antonio Spurs,"December 20,
+            1997
+ (Age: 27-280d)
+
+    in New Orleans, Louisiana",8 years,"6-3,185lb (190cm, 83kg)"
+https://www.basketball-reference.com/players/h/harrito02.html,Tobias Harris,Power Forward and Small Forward,Right,Detroit Pistons,"July 15,
+            1992
+ (Age: 33-073d)
+
+    in Islip, New York",14 years,"6-8,226lb (203cm, 102kg)"
+https://www.basketball-reference.com/players/f/fournev01.html,Evan Fournier,Shooting Guard and Small Forward,Right,,"October 29,
+            1992
+ (Age: 32-332d)
+
+    in Saint-Maurice, France",12 years,"6-6,205lb (198cm, 92kg)"
+https://www.basketball-reference.com/players/h/hieldbu01.html,Buddy Hield,Shooting Guard and Small Forward,Right,Golden State Warriors,"December 17,
+            1992
+ (Age: 32-283d)
+
+    in Freeport, Bahamas",9 years,"6-4,220lb (193cm, 99kg)"
+https://www.basketball-reference.com/players/g/gilgesh01.html,Shai Gilgeous-Alexander,Point Guard and Shooting Guard,Right,Oklahoma City Thunder,"July 12,
+            1998
+ (Age: 27-076d)
+
+    in Toronto, Ontario",7 years,"6-6,200lb (198cm, 90kg)"
+https://www.basketball-reference.com/players/g/georgpa01.html,Paul George,"Small Forward, Power Forward, and Shooting Guard",Right,Philadelphia 76ers,"May 2,
+            1990
+ (Age: 35-147d)
+
+    in Palmdale, California",15 years,"6-8,220lb (203cm, 99kg)"
+https://www.basketball-reference.com/players/m/middlkh01.html,Khris Middleton,Small Forward and Shooting Guard,Right,Washington Wizards,"August 12,
+            1991
+ (Age: 34-045d)
+
+    in Charleston, South Carolina",13 years,"6-7,222lb (201cm, 100kg)"
+https://www.basketball-reference.com/players/r/redicjj01.html,JJ Redick,Shooting Guard and Point Guard,Right,,"June 24,
+            1984
+ (Age: 41-094d)
+
+    in Cookeville, Tennessee",,"6-3,200lb (190cm, 90kg)"
+https://www.basketball-reference.com/players/j/jokicni01.html,Nikola Jokić,Center,Right,Denver Nuggets,"February 19,
+            1995
+ (Age: 30-219d)
+
+    in Sombor, Serbia",10 years,"6-11,284lb (211cm, 128kg)"
+https://www.basketball-reference.com/players/h/halibty01.html,Tyrese Haliburton,Point Guard and Shooting Guard,Right,Indiana Pacers,"February 29,
+            2000
+ (Age: 25-209d)
+
+    in Oshkosh, Wisconsin",5 years,"6-5,185lb (196cm, 83kg)"
+https://www.basketball-reference.com/players/b/bridgmi01.html,Mikal Bridges,Small Forward and Shooting Guard,Right,New York Knicks,"August 30,
+            1996
+ (Age: 29-027d)
+
+    in Philadelphia, Pennsylvania",7 years,"6-6,209lb (198cm, 94kg)"
+https://www.basketball-reference.com/players/b/ballla01.html,LaMelo Ball,Point Guard,Right,Charlotte Hornets,"August 22,
+            2001
+ (Age: 24-035d)
+
+    in Anaheim, California",5 years,"6-7,180lb (201cm, 81kg)"
+https://www.basketball-reference.com/players/w/wiggian01.html,Andrew Wiggins,Small Forward and Power Forward,Right,Miami Heat,"February 23,
+            1995
+ (Age: 30-215d)
+
+    in Toronto, Ontario",11 years,"6-7,197lb (201cm, 89kg)"
+https://www.basketball-reference.com/players/g/goberru01.html,Rudy Gobert,Center,Right,Minnesota Timberwolves,"June 26,
+            1992
+ (Age: 33-092d)
+
+    in Saint-Quentin, France",12 years,"7-1,258lb (216cm, 117kg)"
+https://www.basketball-reference.com/players/g/grahade01.html,Devonte' Graham,Point Guard,Right,,"February 22,
+            1995
+ (Age: 30-216d)
+
+    in Raleigh, North Carolina",6 years,"6-1,195lb (185cm, 88kg)"
+https://www.basketball-reference.com/players/g/garlada01.html,Darius Garland,Point Guard and Shooting Guard,Right,Cleveland Cavaliers,"January 26,
+            2000
+ (Age: 25-243d)
+
+    in Gary, Indiana",6 years,"6-1,192lb (185cm, 87kg)"
+https://www.basketball-reference.com/players/b/butleji01.html,Jimmy Butler,"Small Forward, Shooting Guard, and Power Forward",Right,Golden State Warriors,"September 14,
+            1989
+ (Age: 36-012d)
+
+    in Houston, Texas",14 years,"6-7,230lb (201cm, 104kg)"
+https://www.basketball-reference.com/players/b/brookdi01.html,Dillon Brooks,Small Forward and Shooting Guard,Right,Phoenix Suns,"January 22,
+            1996
+ (Age: 29-247d)
+
+    in Mississauga, Ontario",8 years,"6-6,225lb (198cm, 102kg)"
+https://www.basketball-reference.com/players/r/russeda01.html,D'Angelo Russell,Point Guard,Left,Dallas Mavericks,"February 23,
+            1996
+ (Age: 29-215d)
+
+    in Louisville, Kentucky",10 years,"6-3,193lb (190cm, 87kg)"
+https://www.basketball-reference.com/players/a/anunoog01.html,OG Anunoby,Small Forward and Power Forward,Right,New York Knicks,"July 17,
+            1997
+ (Age: 28-071d)
+
+    in London, United Kingdom",8 years,"6-7,232lb (201cm, 105kg)"
+https://www.basketball-reference.com/players/s/schrode01.html,Dennis Schröder,Point Guard and Shooting Guard,Right,Sacramento Kings,"September 15,
+            1993
+ (Age: 32-011d)
+
+    in Braunschweig, Germany",12 years,"6-1,172lb (185cm, 78kg)"
+https://www.basketball-reference.com/players/b/beaslma01.html,Malik Beasley,Shooting Guard,Right,,"November 26,
+            1996
+ (Age: 28-304d)
+
+    in Atlanta, Georgia",9 years,"6-4,187lb (193cm, 84kg)"
+https://www.basketball-reference.com/players/d/duranke01.html,Kevin Durant,"Small Forward, Power Forward, and Shooting Guard",Right,Houston Rockets,"September 29,
+            1988
+ (Age: 36-362d)
+
+    in Washington, District of Columbia",17 years,"6-11,240lb (211cm, 108kg)"
+https://www.basketball-reference.com/players/h/hardati02.html,Tim Hardaway Jr.,Shooting Guard and Small Forward,Right,Denver Nuggets,"March 16,
+            1992
+ (Age: 33-194d)
+
+    in Orinda, California",12 years,"6-5,205lb (196cm, 92kg)"
+https://www.basketball-reference.com/players/s/sengual01.html,Alperen Şengün,Center,Right,Houston Rockets,"July 25,
+            2002
+ (Age: 23-063d)
+
+    in Giresun, Turkey",4 years,"6-11,235lb (211cm, 106kg)"
+https://www.basketball-reference.com/players/b/brownja02.html,Jaylen Brown,Small Forward and Shooting Guard,Right,Boston Celtics,"October 24,
+            1996
+ (Age: 28-337d)
+
+    in Marietta, Georgia",9 years,"6-6,223lb (198cm, 101kg)"
+https://www.basketball-reference.com/players/b/barneha02.html,Harrison Barnes,Power Forward and Small Forward,Right,San Antonio Spurs,"May 30,
+            1992
+ (Age: 33-119d)
+
+    in Ames, Iowa",13 years,"6-8,225lb (203cm, 102kg)"
+https://www.basketball-reference.com/players/w/willilo02.html,Lou Williams,Point Guard and Shooting Guard,Right,,"October 27,
+            1986
+ (Age: 38-334d)
+
+    in Memphis, Tennessee",,"6-2,175lb (188cm, 79kg)"
+https://www.basketball-reference.com/players/g/gallida01.html,Danilo Gallinari,"Small Forward, Power Forward, and Shooting Guard",Right,,"August 8,
+            1988
+ (Age: 37-049d)
+
+    in Sant'Angelo Lodigiano, Italy",14 years,"6-10,233lb (208cm, 105kg)"
+https://www.basketball-reference.com/players/t/tatumja01.html,Jayson Tatum,Small Forward and Power Forward,Right,Boston Celtics,"March 3,
+            1998
+ (Age: 27-207d)
+
+    in St. Louis, Missouri",8 years,"6-8,210lb (203cm, 95kg)"
+https://www.basketball-reference.com/players/p/paulch01.html,Chris Paul,Point Guard,Right,Los Angeles Clippers,"May 6,
+            1985
+ (Age: 40-143d)
+
+    in Winston-Salem, North Carolina",20 years,"6-0,175lb (183cm, 79kg)"
+https://www.basketball-reference.com/players/j/jacksja02.html,Jaren Jackson Jr.,Center and Power Forward,Right,Memphis Grizzlies,"September 15,
+            1999
+ (Age: 26-011d)
+
+    in Plainfield, New Jersey",7 years,"6-10,242lb (208cm, 109kg)"
+https://www.basketball-reference.com/players/l/lavinza01.html,Zach LaVine,"Shooting Guard, Small Forward, and Point Guard",Right,Sacramento Kings,"March 10,
+            1995
+ (Age: 30-200d)
+
+    in Renton, Washington",11 years,"6-5,200lb (196cm, 90kg)"
+https://www.basketball-reference.com/players/g/greenja05.html,Jalen Green,Shooting Guard,Right,Phoenix Suns,"February 9,
+            2002
+ (Age: 23-229d)
+
+    in Merced, California",4 years,"6-4,178lb (193cm, 80kg)"
+https://www.basketball-reference.com/players/s/sabondo01.html,Domantas Sabonis,Center and Power Forward,Left,Sacramento Kings,"May 3,
+            1996
+ (Age: 29-146d)
+
+    in Portland, Oregon",9 years,"6-10,240lb (208cm, 108kg)"
+https://www.basketball-reference.com/players/d/doncilu01.html,Luka Dončić,Point Guard and Shooting Guard,Right,Los Angeles Lakers,"February 28,
+            1999
+ (Age: 26-210d)
+
+    in Ljubljana, Slovenia",7 years,"6-6,230lb (198cm, 104kg)"
+https://www.basketball-reference.com/players/c/clarkjo01.html,Jordan Clarkson,Shooting Guard and Point Guard,Right,New York Knicks,"June 7,
+            1992
+ (Age: 33-111d)
+
+    in Tampa, Florida",11 years,"6-3,194lb (190cm, 87kg)"
+https://www.basketball-reference.com/players/m/mitchdo01.html,Donovan Mitchell,Shooting Guard and Point Guard,Right,Cleveland Cavaliers,"September 7,
+            1996
+ (Age: 29-019d)
+
+    in Elmsford, New York",8 years,"6-3,215lb (190cm, 97kg)"
+https://www.basketball-reference.com/players/b/bealbr01.html,Bradley Beal,Shooting Guard,Right,Los Angeles Clippers,"June 28,
+            1993
+ (Age: 32-090d)
+
+    in St. Louis, Missouri",13 years,"6-4,207lb (193cm, 93kg)"
+https://www.basketball-reference.com/players/k/kuzmaky01.html,Kyle Kuzma,Power Forward and Small Forward,Right,Milwaukee Bucks,"July 24,
+            1995
+ (Age: 30-064d)
+
+    in Flint, Michigan",8 years,"6-9,221lb (206cm, 100kg)"
+https://www.basketball-reference.com/players/j/jacksre01.html,Reggie Jackson,Point Guard and Shooting Guard,Right,,"April 16,
+            1990
+ (Age: 35-163d)
+
+    in Pordenone, Italy",14 years,"6-2,208lb (188cm, 94kg)"
+https://www.basketball-reference.com/players/m/moranja01.html,Ja Morant,Point Guard,Right,Memphis Grizzlies,"August 10,
+            1999
+ (Age: 26-047d)
+
+    in Dalzell, South Carolina",6 years,"6-2,174lb (188cm, 78kg)"
+https://www.basketball-reference.com/players/r/reaveau01.html,Austin Reaves,Shooting Guard,Right,Los Angeles Lakers,"May 29,
+            1998
+ (Age: 27-120d)
+
+    in Newark, Arkansas",4 years,"6-5,206lb (196cm, 93kg)"
+https://www.basketball-reference.com/players/w/willija06.html,Jalen Williams,Shooting Guard and Power Forward,Right,Oklahoma City Thunder,"April 14,
+            2001
+ (Age: 24-165d)
+
+    in Denver, Colorado",3 years,"6-6,220lb (198cm, 99kg)"
+https://www.basketball-reference.com/players/p/porzikr01.html,Kristaps Porziņģis,Center and Power Forward,Right,Atlanta Hawks,"August 2,
+            1995
+ (Age: 30-055d)
+
+    in Liepaja, Latvia",9 years,"7-2,240lb (218cm, 108kg)"
+https://www.basketball-reference.com/players/v/vanvlfr01.html,Fred VanVleet,Point Guard and Shooting Guard,Right,Houston Rockets,"February 25,
+            1994
+ (Age: 31-213d)
+
+    in Rockford, Illinois",9 years,"6-0,197lb (183cm, 89kg)"
+https://www.basketball-reference.com/players/e/embiijo01.html,Joel Embiid,Center,Right,Philadelphia 76ers,"March 16,
+            1994
+ (Age: 31-194d)
+
+    in Yaounde, Cameroon",9 years,"7-0,280lb (213cm, 127kg)"
+https://www.basketball-reference.com/players/d/drumman01.html,Andre Drummond,Center,Right,Philadelphia 76ers,"August 10,
+            1993
+ (Age: 32-047d)
+
+    in Mount Vernon, New York",13 years,"6-11,279lb (211cm, 126kg)"
+https://www.basketball-reference.com/players/y/youngtr01.html,Trae Young,Point Guard,Right,Atlanta Hawks,"September 19,
+            1998
+ (Age: 27-007d)
+
+    in Lubbock, Texas",7 years,"6-1,164lb (185cm, 74kg)"
+https://www.basketball-reference.com/players/b/banchpa01.html,Paolo Banchero,Power Forward,Right,Orlando Magic,"November 12,
+            2002
+ (Age: 22-318d)
+
+    in Seattle, Washington",3 years,"6-10,250lb (208cm, 113kg)"
+https://www.basketball-reference.com/players/g/grantje01.html,Jerami Grant,Power Forward and Small Forward,Right,Portland Trail Blazers,"March 12,
+            1994
+ (Age: 31-198d)
+
+    in Portland, Oregon",11 years,"6-7,210lb (201cm, 95kg)"
+https://www.basketball-reference.com/players/b/brunsja01.html,Jalen Brunson,Point Guard and Shooting Guard,Left,New York Knicks,"August 31,
+            1996
+ (Age: 29-026d)
+
+    in New Brunswick, New Jersey",7 years,"6-2,190lb (188cm, 86kg)"
+https://www.basketball-reference.com/players/j/jamesle01.html,LeBron James,"Small Forward, Power Forward, Point Guard, Center, and Shooting Guard",Right,Los Angeles Lakers,"December 30,
+            1984
+ (Age: 40-270d)
+
+    in Akron, Ohio",22 years,"6-9,250lb (206cm, 113kg)"
+https://www.basketball-reference.com/players/r/randlju01.html,Julius Randle,Power Forward and Center,Left,Minnesota Timberwolves,"November 29,
+            1994
+ (Age: 30-301d)
+
+    in Dallas, Texas",11 years,"6-9,250lb (206cm, 113kg)"
+https://www.basketball-reference.com/players/m/mathube01.html,Bennedict Mathurin,Small Forward and Shooting Guard,Right,Indiana Pacers,"June 19,
+            2002
+ (Age: 23-099d)
+
+    in Montreal, Quebec",3 years,"6-6,210lb (198cm, 95kg)"
+https://www.basketball-reference.com/players/p/powelno01.html,Norman Powell,Shooting Guard and Small Forward,Right,Miami Heat,"May 25,
+            1993
+ (Age: 32-124d)
+
+    in San Diego, California",10 years,"6-3,215lb (190cm, 97kg)"
+https://www.basketball-reference.com/players/b/bookede01.html,Devin Booker,Shooting Guard and Point Guard,Right,Phoenix Suns,"October 30,
+            1996
+ (Age: 28-331d)
+
+    in Grand Rapids, Michigan",10 years,"6-6,206lb (198cm, 93kg)"
+https://www.basketball-reference.com/players/w/wembavi01.html,Victor Wembanyama,Center and Power Forward,Right,San Antonio Spurs,"January 4,
+            2004
+ (Age: 21-265d)
+
+    in Le Chesnay, France",2 years,"7-3,235lb (221cm, 106kg)"
+https://www.basketball-reference.com/players/d/derozde01.html,DeMar DeRozan,"Shooting Guard, Small Forward, and Power Forward",Right,Sacramento Kings,"August 7,
+            1989
+ (Age: 36-050d)
+
+    in Compton, California",16 years,"6-6,220lb (198cm, 99kg)"

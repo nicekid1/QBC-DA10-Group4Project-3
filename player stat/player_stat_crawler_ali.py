@@ -10,10 +10,10 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 user_agents = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:115.0) Gecko/20100101 Firefox/115.0",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:114.0) Gecko/20100101 Firefox/114.0",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36",
 ]
-
 
 profile = FirefoxProfile()
 random_user_agent = random.choice(user_agents)
@@ -108,6 +108,7 @@ for player in players:
     info_div = soup.find("div", id="info")
 
     player_data = {}
+    player_data["link"] = player
     if info_div:
         name_tag = info_div.find("h1")
         player_data["Name"] = name_tag.get_text(strip=True) if name_tag else None
@@ -175,4 +176,3 @@ df.to_csv("nba_players_stat.csv", index=False, encoding="utf-8")
 driver.quit()
 
 print("end:)))))))))")
-
