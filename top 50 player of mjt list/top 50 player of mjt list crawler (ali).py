@@ -50,6 +50,7 @@ for year in years:
     soup = BeautifulSoup(html, "html.parser")
 
     columns = [th.get_text(strip=True) for th in soup.find("thead").find_all("th")]
+    columns.append("Player_Link")
     tbody = soup.find("tbody")
     data = []
 
@@ -58,13 +59,21 @@ for year in years:
             continue
         cells = row.find_all(["th", "td"])
         row_data = [cell.get_text(strip=True) for cell in cells]
-
+        #adding player link to every row
+        full_link = ""
+        player_cell = cells[1] if len(cells) > 1 else cells[0]
+        a_tag = row.find("a")
+        if a_tag:
+            full_link = "https://www.basketball-reference.com" + a_tag['href']
+        row_data.append(full_link)
+        
         try:
             rank = int(row_data[0])
         except:
             rank = 999
         if rank > 50:
             break
+        
         data.append(row_data)
 
     df = pd.DataFrame(data, columns=columns)
