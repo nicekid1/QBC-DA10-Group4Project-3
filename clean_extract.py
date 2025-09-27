@@ -33,9 +33,25 @@ players_list = pd.read_csv(os.path.join('player stat', 'nba_players_stat.csv'))
 players_list['id'] = players_list['link'].str.extract(r'/./(.*)\.html')
 players_list['Height'] = players_list['Height_Weight'].str.extract(r'([0-9]*)cm').astype('Int64')
 players_list['Weight'] = players_list['Height_Weight'].str.extract(r'([0-9]*)kg').astype('Int64')
+players_list['Experience'] = players_list['Experience'].str.extract(r'([0-9].)').astype('Int64')
 players_list.drop(columns=['Born', 'link', 'Height_Weight'], inplace=True)
 players_list.drop_duplicates(inplace=True)
 
+# Dataframe for champion teams.
+file_names = os.listdir('champ team')
+lst = []
+for file in file_names:
+    if file[-2:] != "py":   # escaping python files
+        path = os.path.join('champ team', file)
+        tmp = pd.read_csv(path)
+        lst.append(tmp)
+
+winners = pd.concat(lst, axis=0, ignore_index=True)
+winners['player_id'] = winners['player_link'].str.extract(r'/./(.*)\.html')
+winners['Exp'] = winners['Exp'].str.replace('R', '0').astype('Int64')
+
+# Dataframe for Team details
+teams_list = pd.read_csv(os.path.join('team stat', 'nba_teams.csv'))
 
 
 
@@ -45,6 +61,9 @@ try:
     temp_config = db_config.copy()
     cnxn = mysql.connector.connect(**temp_config)
     cursor = cnxn.cursor()
+
+    # first remove the old data
+    cursor.execute(f"DROP DATABASE IF EXISTS {db_name}")
 
     # creating NBA_DB if it is not already exists.
     cursor.execute(f"CREATE DATABASE IF NOT EXISTS {db_name} COLLATE utf8mb4_unicode_ci")
@@ -95,19 +114,54 @@ try:
                    f"NAME VARCHAR(255) NOT NULL,"
                    f"POS VARCHAR(255) NOT NULL,"
                    f"SHOOTS VARCHAR(10) NOT NULL,"
+                   f"EXPERIENCE INT,"
                    f"HEIGHT INT NOT NULL,"
                    f"WEIGHT INT NOT NULL);")
     print(f"Table '{tbl_name}' created or already exists.")
     # Insert Dataframe into SQL Server:
     for index, row in players_list.iterrows():
-        query = f"INSERT INTO {tbl_name} (player_id, NAME, POS, SHOOTS,  HEIGHT, WEIGHT) VALUES (%s, %s, %s, %s, %s, %s)"
+        query = f"INSERT INTO {tbl_name} (player_id, NAME, POS, SHOOTS,  EXPERIENCE, HEIGHT, WEIGHT) VALUES (%s, %s, %s, %s, %s, %s, %s)"
         cursor.execute(query,(
             row['id'],
             row['Name'],
             row['Position'],
             row['Shoots'],
+            row['Experience'] if pd.notna(row['Experience']) else None,
             row['Height'],
             row['Weight']))
+    #######################################################################################################################
+    # Adding Winner team for each year.
+    tbl_name = "WINNER_TEAMS"
+    cursor.execute(f"CREATE TABLE IF NOT EXISTS {tbl_name} ("
+                   f"team_id VARCHAR(20) NOT NULL,"
+                   f"player_id VARCHAR(255) NOT NULL,"
+                   f"POS VARCHAR(20) NOT NULL,"
+                   f"EXPERIENCE INT,"
+                   f"YEAR INT NOT NULL);")
+    print(f"Table '{tbl_name}' created or already exists.")
+    # Insert Dataframe into SQL Server:
+    for index, row in winners.iterrows():
+        query = f"INSERT INTO {tbl_name} (team_id, player_id, POS, EXPERIENCE, YEAR) VALUES (%s, %s, %s, %s, %s)"
+        cursor.execute(query, (
+            row['team_id'],
+            row['player_id'],
+            row['Pos'],
+            row['Exp'],
+            row['year']))
+    #######################################################################################################################
+    tbl_name = "TEAMS_DETAILS"
+    cursor.execute(f"CREATE TABLE IF NOT EXISTS {tbl_name} ("
+                   f"id VARCHAR(20) NOT NULL PRIMARY KEY,"
+                   f"NAME VARCHAR(255) NOT NULL,"
+                   f"LOCATION VARCHAR(255) NOT NULL);")
+    print(f"Table '{tbl_name}' created or already exists.")
+    # Insert Dataframe into SQL Server:
+    for index, row in teams_list.iterrows():
+        query = f"INSERT INTO {tbl_name} (id, NAME, LOCATION) VALUES (%s, %s, %s)"
+        cursor.execute(query,(
+            row['id'],
+            row['Team'],
+            row['Location']))
     print('All is fine Committing')
     cnxn.commit()
 
