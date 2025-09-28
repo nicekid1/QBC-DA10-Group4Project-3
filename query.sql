@@ -4,7 +4,10 @@ select name,height,from players_datails
 where top_players.season in (2019,2020,2021,2022,2023,2024);
  group by name,height, limit(50)
 
-
+select name,height from players_datails
+ join awards on awards.player_id = players_Details.player_id
+where awards.season in (2019,2020,2021,2022,2023,2024);
+ group by name,height;
 
 
 
@@ -21,6 +24,7 @@ where top_players.season in (2023,2024)
 group by name,height,experience,
 
  -- Question3
+
 
 
  
