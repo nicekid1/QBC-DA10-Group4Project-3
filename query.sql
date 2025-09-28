@@ -1,5 +1,5 @@
  -- Question1
-select name,height,from players_datails
+select name,height from players_datails
  join top_players on top_players.player_id = players_Details.player_id
 where top_players.season in (2019,2020,2021,2022,2023,2024);
  group by name,height, limit(50)
@@ -28,3 +28,4 @@ group by name,height,experience,
 
 
  
+
