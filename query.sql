@@ -1,0 +1,26 @@
+ -- Question1
+select name,height,from players_datails
+ join top_players on top_players.player_id = players_Details.player_id
+where top_players.season in (2019,2020,2021,2022,2023,2024);
+ group by name,height, limit(50)
+
+
+
+
+
+
+ -- Question2
+ select name,height,experience from players_datails
+ join top_players on top_players.player_id = players_Details.player_id
+where top_players.season=2023 or top_players.season=2024
+ group by name,height,experience, limit(15);
+
+select name,height,experience from player_details
+join winner_teams on winner_teams.player_id = players_details.player_id,
+where top_players.season in (2023,2024)
+group by name,height,experience,
+
+ -- Question3
+
+
+ 
