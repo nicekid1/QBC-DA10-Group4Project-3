@@ -70,12 +70,12 @@ for year in years:
     for row in tbody.find_all("tr"):
         if row.get("class") and "thead" in row.get("class"):
             continue
-        try:
-            rank = int(row.find("th").text)
-        except:
-            rank = 999
-        if rank > 50:
-            break
+        # try:
+        #     rank = int(row.find("th").text)
+        # except:
+        #     rank = 999
+        # if rank > 50:
+        #     break
         a_tag = row.find("a")
         if a_tag:
             full_link = "https://www.basketball-reference.com" + a_tag['href']
