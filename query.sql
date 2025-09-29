@@ -1,4 +1,7 @@
- -- Question1
+
+-- Section1
+
+-- Question1
 select name,height from players_datails
  join top_players on top_players.player_id = players_Details.player_id
 where top_players.season in (2019,2020,2021,2022,2023,2024);
@@ -55,4 +58,5 @@ where winner_teams.year in (2023,2024),
     select name,(experience/(birth year - season)) as ability, from players_datails
  join  on winner_teams.player_id= players_Details.player_id
 where winner_teams.year in (2021,2022),
+
 
