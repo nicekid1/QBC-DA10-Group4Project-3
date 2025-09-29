@@ -30,6 +30,20 @@ select players_datails.name,awards.season,count(awards.player_id) as total_prese
 where player_details.pos="Point Guard" and awards.season in(2019,2020,2021,2022,2023);
 group by name,total_presence, order by total_presence desc , limit(3)
 
- 
+  -- Section2
+
+
+ -- hypothesis1
+ select name,(height/weight) as agility, from players_datails
+ join top_players on top_players.player_id = players_Details.player_id
+where top_players.season in (2020,2021)
+  group by mame,agility,limit(20);
+
+
+  select name,(height/weight) as agility, from players_datails
+ join top_players on top_players.player_id = players_Details.player_id
+where top_players.season in (2022,2023)
+  group by mame,agility,limit(20);
+
 
 
