@@ -44,6 +44,8 @@ players_list['id'] = players_list['id'].str.extract(player_id_regex)
 players_list['height'] = players_list['height'].map(feet_inch_to_cm)
 players_list['birth_date'] = pd.to_datetime(players_list['birth_date'])
 players_list['birth_date'] = players_list['birth_date'].dt.year.astype('Int64')
+players_list['weight'] = np.floor(players_list['weight'] * 0.45359237 ).astype('Int64')# from lbs to kg
+
 
 # Dataframe for champion teams.
 file_names = os.listdir('champ team')
