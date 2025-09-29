@@ -46,4 +46,13 @@ where top_players.season in (2022,2023)
   group by mame,agility,limit(20);
 
 
+-- hypothesis2
+
+  select name,(experience/(birth year - season)) as ability, from players_datails
+ join  on winner_teams.player_id= players_Details.player_id
+where winner_teams.year in (2023,2024),
+    
+    select name,(experience/(birth year - season)) as ability, from players_datails
+ join  on winner_teams.player_id= players_Details.player_id
+where winner_teams.year in (2021,2022),
 
