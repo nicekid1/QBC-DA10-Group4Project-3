@@ -1,38 +1,38 @@
-full_name,height,year_min,season
-Christian Braun,198,2023,2023
-Bruce Brown,193,2019,2023
-Thomas Bryant,208,2018,2023
-Kentavious Caldwell-Pope,196,2014,2023
-Vlatko Čančar,203,2020,2023
-Aaron Gordon,203,2015,2023
-Jeff Green,203,2008,2023
-Bones Hyland,188,2022,2023
-Reggie Jackson,188,2012,2023
-Nikola Jokić,211,2016,2023
-DeAndre Jordan,211,2009,2023
-Jamal Murray,193,2017,2023
-Zeke Nnaji,206,2021,2023
-Michael Porter Jr.,208,2020,2023
-Davon Reed,196,2018,2023
-Ish Smith,183,2011,2023
-Peyton Watson,203,2023,2023
-Jack White,201,2023,2023
-Dalano Banton,206,2022,2024
-Oshae Brissett,201,2020,2024
-Jaylen Brown,198,2017,2024
-JD Davison,185,2023,2024
-Sam Hauser,203,2022,2024
-Jrue Holiday,193,2010,2024
-Al Horford,206,2008,2024
-Luke Kornet,218,2018,2024
-Svi Mykhailiuk,201,2019,2024
-Drew Peterson,206,2024,2024
-Kristaps Porziņģis,218,2016,2024
-Payton Pritchard,185,2021,2024
-Neemias Queta,213,2022,2024
-Jaden Springer,193,2022,2024
-Lamar Stevens,198,2021,2024
-Jayson Tatum,203,2018,2024
-Xavier Tillman Sr.,203,2021,2024
-Jordan Walsh,201,2024,2024
-Derrick White,193,2018,2024
+full_name,height,experience,season
+Christian Braun,198,0,2023
+Bruce Brown,193,4,2023
+Thomas Bryant,208,5,2023
+Kentavious Caldwell-Pope,196,9,2023
+Vlatko Čančar,203,3,2023
+Aaron Gordon,203,8,2023
+Jeff Green,203,15,2023
+Bones Hyland,188,1,2023
+Reggie Jackson,188,11,2023
+Nikola Jokić,211,7,2023
+DeAndre Jordan,211,14,2023
+Jamal Murray,193,6,2023
+Zeke Nnaji,206,2,2023
+Michael Porter Jr.,208,3,2023
+Davon Reed,196,5,2023
+Ish Smith,183,12,2023
+Peyton Watson,203,0,2023
+Jack White,201,0,2023
+Dalano Banton,206,2,2024
+Oshae Brissett,201,4,2024
+Jaylen Brown,198,7,2024
+JD Davison,185,1,2024
+Sam Hauser,203,2,2024
+Jrue Holiday,193,14,2024
+Al Horford,206,16,2024
+Luke Kornet,218,6,2024
+Svi Mykhailiuk,201,5,2024
+Drew Peterson,206,0,2024
+Kristaps Porziņģis,218,8,2024
+Payton Pritchard,185,3,2024
+Neemias Queta,213,2,2024
+Jaden Springer,193,2,2024
+Lamar Stevens,198,3,2024
+Jayson Tatum,203,6,2024
+Xavier Tillman Sr.,203,3,2024
+Jordan Walsh,201,0,2024
+Derrick White,193,6,2024
