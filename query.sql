@@ -25,7 +25,11 @@ group by name,height,experience,
 
  -- Question3
 
-
+select players_datails.name,awards.season,count(awards.player_id) as total_presence from players_details
+       join awards on awards.player_id = players_details.player_id
+where player_details.pos="Point Guard" and awards.season in(2019,2020,2021,2022,2023);
+group by name,total_presence, order by total_presence desc , limit(3)
 
  
+
 
