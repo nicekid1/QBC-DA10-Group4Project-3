@@ -4,6 +4,14 @@ import numpy as np
 import mysql.connector
 import os
 
+def feet_inch_to_cm(x):
+    feet = int(x[0])
+    inch = int(x[2:])
+    return round(feet * 30.48 + inch * 2.54)
+
+
+player_id_regex = r'/./(.*)\.html'
+
 # Getting the users data from database_init.json (add it to .gitignore)
 with open('database_init.json') as file:
     db_config = json.load(file)
@@ -17,25 +25,25 @@ for i in {2019, 2020, 2021, 2022, 2023, 2024, 2025}:
     lst.append(tmp)
 players = pd.concat(lst, axis=0, ignore_index=True)
 # Cleaning some data.
-players['player_id'] = players['Player_Link'].str.extract(r'/./(.*)\.html')
+players['player_id'] = players['Player_Link'].str.extract(player_id_regex)
 players.drop(columns='Player_Link', inplace=True)
 players['MVP ranking'] = players['Awards'].str.extract(r'MVP-([0-9]*)').astype('Int64')
 
 # Dataframe for players in MVP Award ranking
-mvp_players = players[['player_id', 'MVP ranking', 'Season', 'Pos']].copy()
-mvp_players.dropna(inplace=True)
+mvp_players = pd.read_csv(os.path.join('data', 'mvp_players.csv'))
+mvp_players['id'] = mvp_players['id'].str.extract(player_id_regex)
+mvp_players['rank'] = mvp_players['rank'].str.replace(r'[a-zA-Z]', '', regex=True).astype('Int64')
 
 # Dataframe for all the top players
 top_players = players[['player_id', 'Rk', 'Age', 'Team', 'Pos', 'PTS', 'Season']].copy()
 
 # Dataframe for the players details
-players_list = pd.read_csv(os.path.join('player stat', 'nba_players_stat.csv'))
-players_list['id'] = players_list['link'].str.extract(r'/./(.*)\.html')
-players_list['Height'] = players_list['Height_Weight'].str.extract(r'([0-9]*)cm').astype('Int64')
-players_list['Weight'] = players_list['Height_Weight'].str.extract(r'([0-9]*)kg').astype('Int64')
-players_list['Experience'] = players_list['Experience'].str.extract(r'([0-9].)').astype('Int64')
-players_list.drop(columns=['Born', 'link', 'Height_Weight'], inplace=True)
-players_list.drop_duplicates(inplace=True)
+players_list = pd.read_csv(os.path.join('data', 'all_players.csv'))
+players_list['player'] = players_list['player'].str.replace('*', '')
+players_list['id'] = players_list['id'].str.extract(player_id_regex)
+players_list['height'] = players_list['height'].map(feet_inch_to_cm)
+players_list['birth_date'] = pd.to_datetime(players_list['birth_date'])
+players_list['birth_date'] = players_list['birth_date'].dt.year.astype('Int64')
 
 # Dataframe for champion teams.
 file_names = os.listdir('champ team')
@@ -75,14 +83,13 @@ try:
     cursor.execute(f"CREATE TABLE IF NOT EXISTS {tbl_name} ("
                    f"player_id VARCHAR(255) NOT NULL,"
                    f"Ranking INT NOT NULL,"
-                   f"POS VARCHAR(255) NOT NULL,"
                    f"SEASON INT NOT NULL);")
     print(f"Table '{tbl_name}' created or already exists.")
     # Insert Dataframe into SQL Server:
     for index, row in mvp_players.iterrows():
         # print(f"inserting player {row['player_id']} year {row['Season']}")
-        query = f"INSERT INTO {tbl_name} (player_id, Ranking, POS, SEASON) VALUES (%s, %s, %s, %s)"
-        cursor.execute(query, (row['player_id'], row['MVP ranking'], row['Pos'], row['Season']))
+        query = f"INSERT INTO {tbl_name} (player_id, Ranking, SEASON) VALUES (%s, %s, %s)"
+        cursor.execute(query, (row['id'], row['rank'], row['year']))
 #######################################################################################################################
     # Adding Top players table
     tbl_name = "TOP_PLAYERS"
@@ -111,24 +118,30 @@ try:
     tbl_name = "PLAYERS_DETAIL"
     cursor.execute(f"CREATE TABLE IF NOT EXISTS {tbl_name} ("
                    f"player_id VARCHAR(255) NOT NULL PRIMARY KEY,"
-                   f"NAME VARCHAR(255) NOT NULL,"
-                   f"POS VARCHAR(255) NOT NULL,"
-                   f"SHOOTS VARCHAR(10) NOT NULL,"
-                   f"EXPERIENCE INT,"
-                   f"HEIGHT INT NOT NULL,"
-                   f"WEIGHT INT NOT NULL);")
+                   f"FULL_NAME VARCHAR(255) NOT NULL,"
+                   f"POS VARCHAR(31) NOT NULL,"
+                   f"YEAR_MIN INT NOT NULL,"
+                   f"YEAR_MAX INT NOT NULL,"
+                   f"HEIGHT INT,"
+                   f"WEIGHT INT,"
+                   f"BIRTH_YEAR INT,"
+                   f"COLLEGE VARCHAR(255),"
+                   f"ACTIVE BOOLEAN NOT NULL);")
     print(f"Table '{tbl_name}' created or already exists.")
     # Insert Dataframe into SQL Server:
     for index, row in players_list.iterrows():
-        query = f"INSERT INTO {tbl_name} (player_id, NAME, POS, SHOOTS,  EXPERIENCE, HEIGHT, WEIGHT) VALUES (%s, %s, %s, %s, %s, %s, %s)"
-        cursor.execute(query,(
+        query = f"INSERT INTO {tbl_name} (player_id, FULL_NAME, POS, YEAR_MIN, YEAR_MAX,  HEIGHT, WEIGHT, BIRTH_YEAR, COLLEGE, ACTIVE) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+        cursor.execute(query, (
             row['id'],
-            row['Name'],
-            row['Position'],
-            row['Shoots'],
-            row['Experience'] if pd.notna(row['Experience']) else None,
-            row['Height'],
-            row['Weight']))
+            row['player'],
+            row['pos'],
+            row['year_min'],
+            row['year_max'],
+            row['height'],
+            row['weight'] if pd.notna(row['weight']) else None,
+            row['birth_date'] if pd.notna(row['birth_date']) else None,
+            row['colleges'] if pd.notna(row['colleges']) else None,
+            row['is_active']))
     #######################################################################################################################
     # Adding Winner team for each year.
     tbl_name = "WINNER_TEAMS"
@@ -149,6 +162,7 @@ try:
             row['Exp'],
             row['year']))
     #######################################################################################################################
+    # Adding Teams Informations
     tbl_name = "TEAMS_DETAILS"
     cursor.execute(f"CREATE TABLE IF NOT EXISTS {tbl_name} ("
                    f"id VARCHAR(20) NOT NULL PRIMARY KEY,"
