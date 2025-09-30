@@ -3,42 +3,35 @@ import pandas as pd
 import numpy as np
 import mysql.connector
 import os
+import warnings
+warnings.filterwarnings("ignore")
 
 def feet_inch_to_cm(x):
     feet = int(x[0])
     inch = int(x[2:])
     return round(feet * 30.48 + inch * 2.54)
 
-
+absolute_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+data_path = os.path.join(absolute_path, 'data')
 player_id_regex = r'/./(.*)\.html'
 
 # Getting the users data from database_init.json (add it to .gitignore)
-with open('database_init.json') as file:
+with open(os.path.join(absolute_path, 'database_init.json')) as file:
     db_config = json.load(file)
 
 # Dataframe containing all the top players in each season
-lst = []
-for i in {2019, 2020, 2021, 2022, 2023, 2024, 2025}:
-    path = os.path.join('top 50 player of mjt list', f'nba_top50_players_{i}.csv')
-    tmp = pd.read_csv(path)
-    tmp['Season'] = i
-    lst.append(tmp)
-players = pd.concat(lst, axis=0, ignore_index=True)
-# Cleaning some data.
+players = pd.read_csv(os.path.join(data_path, 'top50_players.csv'))
 players['player_id'] = players['Player_Link'].str.extract(player_id_regex)
 players.drop(columns='Player_Link', inplace=True)
-players['MVP ranking'] = players['Awards'].str.extract(r'MVP-([0-9]*)').astype('Int64')
+top_players = players[['player_id', 'Rk', 'Age', 'Team', 'Pos', 'PTS', 'Year']].copy()
 
 # Dataframe for players in MVP Award ranking
-mvp_players = pd.read_csv(os.path.join('data', 'mvp_players.csv'))
+mvp_players = pd.read_csv(os.path.join(data_path, 'mvp_players.csv'))
 mvp_players['id'] = mvp_players['id'].str.extract(player_id_regex)
 mvp_players['rank'] = mvp_players['rank'].str.replace(r'[a-zA-Z]', '', regex=True).astype('Int64')
 
-# Dataframe for all the top players
-top_players = players[['player_id', 'Rk', 'Age', 'Team', 'Pos', 'PTS', 'Season']].copy()
-
 # Dataframe for the players details
-players_list = pd.read_csv(os.path.join('data', 'all_players.csv'))
+players_list = pd.read_csv(os.path.join(data_path, 'all_players.csv'))
 players_list['player'] = players_list['player'].str.replace('*', '')
 players_list['id'] = players_list['id'].str.extract(player_id_regex)
 players_list['height'] = players_list['height'].map(feet_inch_to_cm)
@@ -48,20 +41,12 @@ players_list['weight'] = np.floor(players_list['weight'] * 0.45359237 ).astype('
 
 
 # Dataframe for champion teams.
-file_names = os.listdir('champ team')
-lst = []
-for file in file_names:
-    if file[-2:] != "py":   # escaping python files
-        path = os.path.join('champ team', file)
-        tmp = pd.read_csv(path)
-        lst.append(tmp)
-
-winners = pd.concat(lst, axis=0, ignore_index=True)
+winners = pd.read_csv(os.path.join(data_path, 'nba_champs.csv'))
 winners['player_id'] = winners['player_link'].str.extract(r'/./(.*)\.html')
 winners['Exp'] = winners['Exp'].str.replace('R', '0').astype('Int64')
 
 # Dataframe for Team details
-teams_list = pd.read_csv(os.path.join('team stat', 'nba_teams.csv'))
+teams_list = pd.read_csv(os.path.join(data_path, 'all_teams.csv'))
 
 
 
@@ -114,7 +99,7 @@ try:
             row['Team'],
             row['Pos'],
             row['PTS'],
-            row['Season']))
+            row['Year']))
 #######################################################################################################################
     # Adding players information
     tbl_name = "PLAYERS_DETAIL"
@@ -152,11 +137,11 @@ try:
                    f"player_id VARCHAR(255) NOT NULL,"
                    f"POS VARCHAR(20) NOT NULL,"
                    f"EXPERIENCE INT,"
-                   f"YEAR INT NOT NULL);")
+                   f"SEASON INT NOT NULL);")
     print(f"Table '{tbl_name}' created or already exists.")
     # Insert Dataframe into SQL Server:
     for index, row in winners.iterrows():
-        query = f"INSERT INTO {tbl_name} (team_id, player_id, POS, EXPERIENCE, YEAR) VALUES (%s, %s, %s, %s, %s)"
+        query = f"INSERT INTO {tbl_name} (team_id, player_id, POS, EXPERIENCE, SEASON) VALUES (%s, %s, %s, %s, %s)"
         cursor.execute(query, (
             row['team_id'],
             row['player_id'],

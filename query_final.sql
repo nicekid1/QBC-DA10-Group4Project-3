@@ -18,11 +18,11 @@ GROUP BY FULL_NAME, HEIGHT, SEASON;
 SELECT FULL_NAME,
        HEIGHT,
        EXPERIENCE,
-       YEAR AS SEASON
+       SEASON
 FROM WINNER_TEAMS
          JOIN PLAYERS_DETAIL ON WINNER_TEAMS.player_id = PLAYERS_DETAIL.player_id
-WHERE WINNER_TEAMS.YEAR IN (2023, 2024)
-GROUP BY FULL_NAME, HEIGHT, EXPERIENCE, YEAR;
+WHERE WINNER_TEAMS.SEASON IN (2023, 2024)
+GROUP BY FULL_NAME, HEIGHT, EXPERIENCE, SEASON;
 
 -- section 2 table 2
 SELECT FULL_NAME,
@@ -56,8 +56,7 @@ GROUP BY FULL_NAME, POS
 ORDER BY NOMINATED DESC, FULL_NAME
 LIMIT 3;
 -- -------------------------------------------------------------------------------------------------
- -- hypothesis1
-
+-- Hypothesis 1
 WITH TOP_AGILITY AS (SELECT DISTINCTROW PLAYERS_DETAIL.FULL_NAME,
                                         (PLAYERS_DETAIL.HEIGHT / PLAYERS_DETAIL.WEIGHT) AS AGILITY,
                                         TOP_PLAYERS.SEASON
@@ -82,44 +81,42 @@ SELECT FULL_NAME,
        AGILITY
 FROM TOP_AGILITY;
 -- -------------------------------------------------------------------------------------------------
--- hypothesis2
-
+-- Hypothesis 2
 WITH WINNERS AS (SELECT DISTINCTROW PLAYERS_DETAIL.FULL_NAME,
                                     WINNER_TEAMS.EXPERIENCE,
-                                    (YEAR - BIRTH_YEAR) AS AGE,
-                                    WINNER_TEAMS.YEAR
+                                    (SEASON - BIRTH_YEAR) AS AGE,
+                                    WINNER_TEAMS.SEASON
                  FROM WINNER_TEAMS
                           JOIN PLAYERS_DETAIL
                                ON WINNER_TEAMS.player_id = PLAYERS_DETAIL.player_id
-                 WHERE YEAR IN (2023, 2024)),
+                 WHERE SEASON IN (2023, 2024)),
      WINNERS_POTENTIAL AS (SELECT FULL_NAME,
                                   (EXPERIENCE / AGE) AS POTENTIAL,
-                                  YEAR
+                                  SEASON
                            FROM WINNERS)
 
 SELECT FULL_NAME,
        POTENTIAL,
-       YEAR
+       SEASON
 FROM WINNERS_POTENTIAL;
 
 WITH WINNERS AS (SELECT DISTINCTROW PLAYERS_DETAIL.FULL_NAME,
                                     WINNER_TEAMS.EXPERIENCE,
-                                    (YEAR - BIRTH_YEAR) AS AGE,
-                                    WINNER_TEAMS.YEAR
+                                    (SEASON - BIRTH_YEAR) AS AGE,
+                                    WINNER_TEAMS.SEASON
                  FROM WINNER_TEAMS
                           JOIN PLAYERS_DETAIL
                                ON WINNER_TEAMS.player_id = PLAYERS_DETAIL.player_id
-                 WHERE YEAR IN (2021, 2022)),
+                 WHERE SEASON IN (2021, 2022)),
      WINNERS_POTENTIAL AS (SELECT FULL_NAME,
                                   (EXPERIENCE / AGE) AS POTENTIAL,
-                                  YEAR
+                                  SEASON
                            FROM WINNERS)
 
 SELECT FULL_NAME,
        POTENTIAL,
-       YEAR
+       SEASON
 FROM WINNERS_POTENTIAL;
-
 
 
 
