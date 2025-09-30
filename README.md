@@ -15,11 +15,11 @@ A comprehensive basketball statistics analysis tool that crawls data from Basket
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🏀 Overview
+## 🏀 [Overview](#overview)
 
 This project automates the collection, cleaning, and analysis of NBA basketball statistics from [Basketball Reference](https://www.basketball-reference.com). It features a complete data pipeline from web scraping to database storage and analytical visualization.
 
-## ✨ Features
+## ✨ [Features](#features)
 
 - **Automated Data Collection**: Web scraping from Basketball Reference
 - **Data Cleaning Pipeline**: Automated data cleaning and standardization
@@ -32,7 +32,7 @@ This project automates the collection, cleaning, and analysis of NBA basketball 
 - **Cross-Platform Support**: Works on Windows, macOS, and Linux
 - **Jupyter Notebook Analysis**: Interactive data exploration and visualization
 
-## 🔧 Prerequisites
+## 🔧 [Prerequisites](#prerequisites)
 
 - Python 3.9
 - MySQL Server (8+ recommended)
@@ -51,7 +51,7 @@ matplotlib>=3.4.0
 seaborn>=0.11.0
 ```
 
-## 📦 Installation
+## 📦 [Installation](#installation)
 
 1. **Clone the repository**
 ```bash
@@ -80,7 +80,7 @@ pip install -r requirements.txt
 
 5. **Configure database connection** (see [Configuration](#configuration) section)
 
-## 📁 Project Structure
+## 📁 [Project Structure](#project-structure)
 
 ```
 basketball-analysis/
@@ -119,7 +119,7 @@ basketball-analysis/
 └── 📊 Visual_and_Statistical_test_functions.ipynb # Visualization tools
 ```
 
-## ⚙️ Configuration
+## ⚙️ [Configuration](#configuration)
 
 ### Database Configuration
 
@@ -143,7 +143,7 @@ You can modify the following settings in `init.py`:
 - Team metrics to analyze
 - Database table structures
 
-## 🚀 Usage
+## 🚀 [Usage](#usage)
 
 ### Initial Setup and Data Collection
 
@@ -184,7 +184,7 @@ python scripts/mvp_player_crawler.py
 python scripts/champ_team_crawler.py
 ```
 
-## 🔄 Data Pipeline
+## 🔄 [Data Pipeline](#data-pipeline)
 
 1. **Data Collection**: Web scrapers collect raw data from Basketball Reference
 2. **Data Cleaning**: `clean_extract.py` standardizes and cleans raw data
@@ -193,7 +193,7 @@ python scripts/champ_team_crawler.py
 5. **Analysis Output**: Generates CSV files for visualization
 6. **Visualization**: Jupyter notebooks create insights and charts
 
-## 💻 Cross-Platform Compatibility
+## 💻 [Cross-Platform Compatibility](#cross-platform-compatibility)
 
 This project is designed to work across different operating systems:
 
@@ -223,7 +223,7 @@ This project is designed to work across different operating systems:
 - Basketball Reference may have rate limiting
 - Try running scrapers individually
 
-## 🤝 Contributing
+## 🤝 [Contributing](#contributing)
 
 Contributions are welcome! Please follow these steps:
 
@@ -238,10 +238,6 @@ Contributions are welcome! Please follow these steps:
 - Add docstrings to new functions
 - Update README for new features
 - Test on multiple platforms
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
