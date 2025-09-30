@@ -63,8 +63,8 @@ jupyterlab=4.4.7
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/basketball-analysis.git
-cd basketball-analysis
+git clone https://github.com/nicekid1/QBC-DA10-Group4Project-3.git
+cd QBC-DA10-Group4Project-3
 ```
 
 2. **Create a virtual environment** (recommended)
@@ -85,10 +85,7 @@ pip install -r requirements.txt
 
 4. **Set up MySQL Database**
    - Install MySQL Server if not already installed
-   - Create a new database for the project:
-```sql
-CREATE DATABASE basketball_stats;
-```
+
 
 5. **Configure database connection** (see [Configuration](#configuration) section)
 
@@ -125,7 +122,7 @@ basketball-analysis/
 │   └── 🐍 top50_player_all.py    # Top 50 players analysis
 │
 ├── 🔥 .gitignore                 # Git ignore file
-├── 📊 Analyzer_temp_update.ipynb # Main analysis notebook
+├── 📊 Analysis.ipynb             # Main analysis notebook
 ├── 🔧 database_init.json         # Database configuration (create this)
 ├── 📁 report.pdf                 # Project documentation
 ├── 🐍 init.py                    # Main initialization script
@@ -199,6 +196,9 @@ python scripts/mvp_player_crawler.py
 
 # Collect championship data
 python scripts/champ_team_crawler.py
+
+# Collect Top 50 players data
+python scripts/top50_player_ali.py
 ```
 
 ## Data Pipeline
@@ -206,11 +206,10 @@ python scripts/champ_team_crawler.py
 🔄 **Processing Flow:**
 
 1. **Data Collection**: Web scrapers collect raw data from Basketball Reference
-2. **Data Cleaning**: `clean_extract.py` standardizes and cleans raw data
-3. **Database Storage**: `prepare_data.py` loads clean data into MySQL
-4. **Query Processing**: `query_final.sql` creates analysis views
-5. **Analysis Output**: Generates CSV files for visualization
-6. **Visualization**: Jupyter notebooks create insights and charts
+2. **Data Cleaning**: `clean_extract.py` standardizes and cleans raw data and loads them into MySQL
+3. **Database Query**: `prepare_data.py` gets filtered data from MySQL using `query_final.sql`
+4. **Analysis Output**: Generates CSV files for visualization
+5. **Visualization**: Jupyter notebooks create insights and charts
 
 ## Cross-Platform Compatibility
 
