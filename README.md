@@ -1,4 +1,4 @@
-# Basketball Data Analysis Project
+# Quera Data Analysis Project
 
 A comprehensive basketball statistics analysis tool that crawls data from Basketball Reference, processes it through a MySQL database, and provides analytical insights through Jupyter notebooks.
 
