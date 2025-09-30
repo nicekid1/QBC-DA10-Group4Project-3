@@ -1,4 +1,4 @@
-# Basketball Data Analysis Project
+# Quera Data Analysis Project
 
 A comprehensive basketball statistics analysis tool that crawls data from Basketball Reference, processes it through a MySQL database, and provides analytical insights through Jupyter notebooks.
 
@@ -34,8 +34,8 @@ This project automates the collection, cleaning, and analysis of NBA basketball 
 
 ## 🔧 Prerequisites
 
-- Python 3.9 or higher
-- MySQL Server (5.7+ recommended)
+- Python 3.9
+- MySQL Server (8+ recommended)
 - pip package manager
 - Git (for cloning the repository)
 
@@ -77,10 +77,6 @@ pip install -r requirements.txt
 
 4. **Set up MySQL Database**
    - Install MySQL Server if not already installed
-   - Create a new database for the project:
-```sql
-CREATE DATABASE basketball_stats;
-```
 
 5. **Configure database connection** (see [Configuration](#configuration) section)
 
@@ -134,7 +130,6 @@ Create a `database_init.json` file in the project root directory with your MySQL
     "host": "localhost",
     "user": "your_mysql_username",
     "password": "your_mysql_password",
-    "database": "basketball_stats"
 }
 ```
 
